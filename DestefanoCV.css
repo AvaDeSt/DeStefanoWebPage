@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava DeStefano CV</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: flex;
+        }
+        /* Sidebar Style */
+        .sidebar {
+            width: 250px;
+            background-color: #483D8B;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+            text-align: center;
+        }
+                .sidebar h1 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        .sidebar p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        /* Main Content */
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+            width: calc(100% - 270px);
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+        }
+        .section h2 {
+          color: #000080;
+            margin-top: 0;
+        }
+        .section hr {
+            border-top: 1px solid lightblue;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .section li {
+            padding: 8px 0;
+        }
+        .project-link {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+<img src="img/IMG_7705.jpg" width=100 height=100 border-radius=50%>
+            
+            <h1>Ava DeStefano</h1>
+            <p>Senior at West Chester University</p>
+            <p>Email: AD988187@wcupa.edu</p>
+            <p>Phone: (484) 366-6650</p>
+            <p> &nbsp; <img src="img/github-mark/github-mark-white.png" width=10 height=10>&nbsp;  
+                    &nbsp; <a href="https://github.com/AvaDeSt" style="text-decoration: none;"  target="_blank"  
+                     onclick="window.open('https://github.com/AvaDeSt','name','width="40", height="40")">
+                     <font color = "white">https://github.com/AvaDeSt</font></a><br><br><p>
+                    
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Objective Section -->
+            <div class="section">
+                <h2>Objective</h2>
+                <hr>
+                <p><strong>Current Senior at West Chester University studying mathematics with a focus in statistics. I am highly motivated to start my career search! Seeking future opportunities in statistical analysis or related fields.</p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section">
+                <h2>Education</h2>
+                <hr>
+                <ul>
+                    <li><strong>Bachelor of Science in Statistics - West Chester University (2021 - 2025)</li>
+                    <li><strong>GPA: 3.53</li>
+                </ul>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="section">
+                <h2>Experience</h2>
+                <hr>
+                <ul>
+                    <li><strong>Front Desk Receptionist</strong> - Chester County Intermediate Unit (2022 - Present)</li>
+                    <li><strong>Host</strong> - The Library Restaurant in Collegville (2024 - Present)</li>
+                </ul>
+            </div>
+
+            <!-- Coursework Section -->
+            <div class="section">
+                <h2>Coursework</h2>
+                <hr>
+                <ul>
+                    <li>Calculus 1, 2, and 3</li>
+                    <li>Mathematical Statistics 1 and 2 ... covers probability theory, discrete and continuous variables, and distributions</li>
+                    <li>Applied Statistics ... covered simpled and multiple linear regression methods using R Studio </li>
+                    <li>Introduction to Statistical Computing and Data Management ... covers data management using SAS </li>
+                    <li>Experimental Design ... covers ANOVAs, block, factorial, and split plot designs</li>
+                    <li>Topics in Advanced Statistics ... coverscatagorical analysis, nonparametrics, and time series</li>
+                    <li>Basics of Statistical Learning ... introduces statisticallearning and predictive modeling using R Studio </li>
+                   
+                    <li>Probability and Statistics in Gaming</li>
+                    <li>Business and Organized Writing </li>
+                </ul>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="section">
+                <h2>Projects</h2>
+                <hr>
+                <ul>
+                    <li><a href="https://rpubs.com/Ava_Rose/1267898" class="https://rpubs.com/Ava_Rose/1267898">Project 1:  Predicting Final Math Grades</a></li>
+                    <li><a href="https://rpubs.com/Ava_Rose/1237723" class="https://rpubs.com/Ava_Rose/1237723">Project 2: Logistic Regression for Employee Turnover</a></li>
+                    <li><a href="https://rpubs.com/Ava_Rose/1243705" class="https://rpubs.com/Ava_Rose/1243705">Project 3: Poisson Regression for New York Cyclists</a></li>
+                    <li><a href="https://rpubs.com/Ava_Rose/1252467" class="https://rpubs.com/Ava_Rose/1252467">Project 4: Home Sales Time Series Analysis</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
